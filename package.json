@@ -1,0 +1,28 @@
+{
+  "name": "hee-design-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manifesto-Digital/hee-design-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manifesto-Digital/hee-design-system/issues"
+  },
+  "homepage": "https://github.com/Manifesto-Digital/hee-design-system#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@storybook/html": "^5.3.14",
+    "babel-loader": "^8.0.6"
+  }
+}
