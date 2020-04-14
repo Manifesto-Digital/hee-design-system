@@ -1,0 +1,14 @@
+// Core NHS.UK Styles
+@import './styles/core';
+
+@import '~nhsuk-frontend/packages/nhsuk';
+
+// Extension Component Styles
+@import '~nhsuk-react-components-extensions/css/all.css';
+
+// Masked Input Depends on standard Input Styling - Include here and
+// not in the components.scss
+@import '~nhsuk-frontend/packages/components/error-message/error-message';
+@import '~nhsuk-frontend/packages/components/label/label';
+@import '~nhsuk-frontend/packages/components/hint/hint';
+@import '~nhsuk-frontend/packages/components/input/input';
